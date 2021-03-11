@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width">
+    <title>Actividad12</title>
+</head>
+<body>
+	<script>
+		var farse = prompt("Dime una frase: ");
+        var cont_a=0;
+        var cont_e=0;
+        var cont_i=0;
+        var cont_o=0;
+        var cont_u=0;
+        var i = 0;
+        while(i < frase.length){
+        i++;
+        if(frase[i]=== 'a'){
+        	cont_a++;
+        }if(frase[i]=== 'e'){
+        	cont_e++;
+        }if(frase[i]=== 'i'){
+        	cont_i++;
+        }if(frase[i]=== 'o'){
+        	cont_o++;
+        }if(frase[i]=== 'e'){
+        	cont_e++;
+        }
+        i = i + 1;
+     }
+     document.write("a aparece" + cont_a + "veces");
+     document.write("e aparece" + cont_e + "veces");
+     document.write("i aparece" + cont_i + "veces");
+     document.write("o aparece" + cont_o + "veces");
+     document.write("u aparece" + cont_u + "veces");
+    </script>
+</body>
+</html>
